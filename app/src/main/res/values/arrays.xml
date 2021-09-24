@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="example_one">
+        <item>Diyar KALA</item>
+        <item>Kerem HAFİF</item>
+        <item>Tolga SÖZBİR</item>
+    </string-array>
+</resources>

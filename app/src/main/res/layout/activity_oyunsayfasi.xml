@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oyunekraniarkaplani"
+    tools:context=".oyunsayfasi">
+
+    <Button
+        android:id="@+id/btnKick2"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape8"
+        android:text="Kick2"
+        android:textAllCaps="false"
+        android:textColor="#cccc00"
+        app:layout_constraintEnd_toStartOf="@+id/btnDrum2"
+        app:layout_constraintTop_toBottomOf="@+id/btnKick1" />
+
+    <Button
+        android:id="@+id/btnOneshot1"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape17"
+        android:text="OneShot1"
+        android:textAllCaps="false"
+        android:textColor="#640099"
+        app:layout_constraintEnd_toStartOf="@+id/btnsSratch1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMelody1"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape2"
+        android:text="Melody1"
+        android:textAllCaps="false"
+        android:textColor="#0076ff"
+        app:layout_constraintEnd_toStartOf="@+id/btnKick1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnDrum1"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape12"
+        android:text="Drum1"
+        android:textAllCaps="false"
+        android:textColor="#a10001"
+        app:layout_constraintEnd_toStartOf="@+id/btnOneshot1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnsSratch1"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape22"
+        android:text="Scratch1"
+        android:textAllCaps="false"
+        android:textColor="#03a500"
+        app:layout_constraintEnd_toStartOf="@+id/btnLoop1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMelody4"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape5"
+        android:text="Melody4"
+        android:textAllCaps="false"
+        android:textColor="#00ffdc"
+        app:layout_constraintEnd_toStartOf="@+id/btnClap2"
+        app:layout_constraintTop_toBottomOf="@+id/btnMelody3" />
+
+    <Button
+        android:id="@+id/btnLoop1"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/button_shape26"
+        android:text="Loop1"
+        android:textAllCaps="false"
+        android:textColor="#f59500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnKick3"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape9"
+        android:text="Kick3"
+        android:textAllCaps="false"
+        android:textColor="#e0e000"
+        app:layout_constraintEnd_toStartOf="@+id/btnDrum3"
+        app:layout_constraintTop_toBottomOf="@+id/btnKick2" />
+
+    <Button
+        android:id="@+id/btnMelody3"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape4"
+        android:text="Melody3"
+        android:textAllCaps="false"
+        android:textColor="#00e0ff"
+        app:layout_constraintEnd_toStartOf="@+id/btnKick3"
+        app:layout_constraintTop_toBottomOf="@+id/btnMelody2" />
+
+    <Button
+        android:id="@+id/btnClap2"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape10"
+        android:text="Clap2"
+        android:textAllCaps="false"
+        android:textColor="#ffff00"
+        app:layout_constraintEnd_toStartOf="@+id/btnClap1"
+        app:layout_constraintTop_toBottomOf="@+id/btnKick3" />
+
+    <Button
+        android:id="@+id/btnMelody2"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape3"
+        android:text="Melody2"
+        android:textAllCaps="false"
+        android:textColor="#009eff"
+        app:layout_constraintEnd_toStartOf="@+id/btnKick2"
+        app:layout_constraintTop_toBottomOf="@+id/btnMelody1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnDrum3"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape14"
+        android:text="Drum3"
+        android:textAllCaps="false"
+        android:textColor="#e80000"
+        app:layout_constraintEnd_toStartOf="@+id/btnOneshot3"
+        app:layout_constraintTop_toBottomOf="@+id/btnDrum2" />
+
+    <Button
+        android:id="@+id/btnOneshot2"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape18"
+        android:text="OneShot2"
+        android:textAllCaps="false"
+        android:textColor="#8300c9"
+        app:layout_constraintEnd_toStartOf="@+id/btnsSratch2"
+        app:layout_constraintTop_toBottomOf="@+id/btnOneshot1" />
+
+    <Button
+        android:id="@+id/btnClap1"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape15"
+        android:text="Clap1"
+        android:textAllCaps="false"
+        android:textColor="#ff0000"
+        app:layout_constraintEnd_toStartOf="@+id/btnOneshot4"
+        app:layout_constraintTop_toBottomOf="@+id/btnDrum3" />
+
+    <Button
+        android:id="@+id/btnsSratch4"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape25"
+        android:text="Scratch4"
+        android:textAllCaps="false"
+        android:textColor="#00ff00"
+        app:layout_constraintEnd_toStartOf="@+id/btnLoop4"
+        app:layout_constraintTop_toBottomOf="@+id/btnsSratch3" />
+
+    <Button
+        android:id="@+id/btnOneshot3"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape19"
+        android:text="OneShot3"
+        android:textAllCaps="false"
+        android:textColor="#9800ea"
+        app:layout_constraintEnd_toStartOf="@+id/btnsSratch3"
+        app:layout_constraintTop_toBottomOf="@+id/btnOneshot2" />
+
+    <Button
+        android:id="@+id/btnDrum2"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape13"
+        android:text="Drum2"
+        android:textAllCaps="false"
+        android:textColor="#bf0000"
+        app:layout_constraintEnd_toStartOf="@+id/btnOneshot2"
+        app:layout_constraintTop_toBottomOf="@+id/btnDrum1" />
+
+    <Button
+        android:id="@+id/btnKick1"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape7"
+        android:text="Kick1"
+        android:textAllCaps="false"
+        android:textColor="#adad00"
+        app:layout_constraintEnd_toStartOf="@+id/btnDrum1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOneshot4"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape20"
+        android:text="OneShot4"
+        android:textAllCaps="false"
+        android:textColor="#a600ff"
+        app:layout_constraintEnd_toStartOf="@+id/btnsSratch4"
+        app:layout_constraintTop_toBottomOf="@+id/btnOneshot3" />
+
+    <Button
+        android:id="@+id/btnsSratch2"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape23"
+        android:text="Scratch2"
+        android:textAllCaps="false"
+        android:textColor="#02bc00"
+        app:layout_constraintEnd_toStartOf="@+id/btnLoop2"
+        app:layout_constraintTop_toBottomOf="@+id/btnsSratch1" />
+
+    <Button
+        android:id="@+id/btnsSratch3"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/button_shape24"
+        android:text="Scratch3"
+        android:textAllCaps="false"
+        android:textColor="#00e300"
+        app:layout_constraintEnd_toStartOf="@+id/btnLoop3"
+        app:layout_constraintTop_toBottomOf="@+id/btnsSratch2" />
+
+    <Button
+        android:id="@+id/btnLoop2"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/button_shape27"
+        android:text="Loop2"
+        android:textAllCaps="false"
+        android:textColor="#f59500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoop1" />
+
+    <Button
+        android:id="@+id/btnLoop3"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/button_shape28"
+        android:text="Loop3"
+        android:textAllCaps="false"
+        android:textColor="#f59500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoop2" />
+
+    <Button
+        android:id="@+id/btnLoop4"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/button_shape29"
+        android:text="Loop4"
+        android:textAllCaps="false"
+        android:textColor="#ff9000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoop3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

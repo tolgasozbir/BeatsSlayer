@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="btnbackcolor">#333333</color>
+    <color name="btnloops">#F59500</color>
+
+    <color name="btntextcolorsiyah">#333333</color>
+    <color name="btntextloop">#F59500</color>
+
+    <color name="denemerenk">#bc6700</color>
+
+    <color name="btndrum1">#700003</color>
+    <color name="btndrum2">#a10001</color>
+    <color name="btndrum3">#bf0000</color>
+    <color name="btndrum4">#e80000</color>
+    <color name="btnclap1">#ff0000</color>
+
+    <color name="btnclap2">#ffff00</color>
+    <color name="btnkick1">#8c8c00</color>
+    <color name="btnkick2">#adad00</color>
+    <color name="btnkick3">#cccc00</color>
+    <color name="btnkick4">#e0e000</color>
+
+    <color name="btnmelody1">#0000ff</color>
+    <color name="btnmelody2">#0076ff</color>
+    <color name="btnmelody3">#009eff</color>
+    <color name="btnmelody4">#00e0ff</color>
+    <color name="btnmelody5">#00ffdc</color>
+
+</resources>
